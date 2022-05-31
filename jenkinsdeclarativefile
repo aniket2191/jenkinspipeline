@@ -23,7 +23,7 @@ pipeline{
 
 		stage("Deploy")
 		{
-			step
+			steps
 			{
 			echo "Deploying the Project...."	
 			}
@@ -32,7 +32,7 @@ pipeline{
 
 		stage("Release")
 		{
-			step
+			steps
 			{
 			echo "Releasing the Project...."
 			}
